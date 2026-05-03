@@ -50,7 +50,7 @@ Remplace TOUTES les valeurs par les données RÉELLES de ${home} vs ${away} en 2
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { maxOutputTokens: 4000, temperature: 0.3, responseMimeType: "application/json" }
+      generationConfig: { maxOutputTokens: 4000, temperature: 0.3 }
     })
   });
 
